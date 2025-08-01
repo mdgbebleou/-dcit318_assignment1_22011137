@@ -1,0 +1,34 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore VS Code auto-saved files (optional)
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignore .NET runtime files
+apphost.exe
+*.dll
+*.pdb
+*.sourcelink.json
+*.xml
+*.json
+*.cache
+
+# Ignore macOS/Linux temp files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.dotCover
+_ReSharper*/
+*.resharper
